@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Page</title>
+</head>
+<body>
+<form action="myServlet" method="get">
+<input type="submit" name="click here for doGet">
+<input type="text" value="fname"/>
+</form>
+<br/>
+<br/>
+<form action="myServlet" method="post">
+<input type="submit" value="click here for doPost">
+<input type="text" name="fname"/>
+</form>
+
+
+</body>
+</html>

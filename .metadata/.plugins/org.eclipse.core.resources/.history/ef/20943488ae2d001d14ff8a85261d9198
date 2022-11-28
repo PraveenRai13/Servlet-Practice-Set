@@ -1,0 +1,28 @@
+package listeners;
+
+
+
+import jakarta.servlet.http.HttpSessionAttributeListener;
+import jakarta.servlet.http.HttpSessionEvent;
+import jakarta.servlet.http.HttpSessionListener;
+
+/**
+ * Application Lifecycle Listener implementation class MyListener
+ *
+ */
+public class MyListener implements HttpSessionListener, HttpSessionAttributeListener {
+
+    /**
+     * Default constructor. 
+     */
+    public MyListener() {
+        
+    }
+public void sessionCreated(HttpSessionEvent arg0) {
+	
+}
+public void sessionDestroyed(HttpSessionEvent arg0) {
+	
+}
+
+}

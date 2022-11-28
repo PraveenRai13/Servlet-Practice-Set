@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Pagr</title>
+</head>
+<body>
+<form action="mySevlet" method="get">
+<input type="submit" value="click here for doGet">
+</form>
+<br/>
+<br/>
+<form action="mySevlet" method="get">
+<input type="submit" value="click here for doPost">
+</form>
+
+
+</body>
+</html>
